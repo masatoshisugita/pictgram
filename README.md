@@ -13,6 +13,15 @@ Things you may want to cover:
 
 * Database creation
 
+  mysqlを起動
+  $ sudo mysql.server start
+
+  db作成
+  $ bundle exec rails db:create
+  $ bundle exec rails db:nigrate
+
+  
+
 * Database initialization
 
 * How to run the test suite
